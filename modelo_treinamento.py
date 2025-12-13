@@ -5,7 +5,7 @@ import tensorflow.keras as keras
 import matplotlib.pyplot as plt
 
 # Caminho do arquivo JSON com os MFCCs e labels
-DATA_PATH = "/content/drive/MyDrive/classificação de genero/data_10.json"
+DATA_PATH = "data_10.json"
 MODEL_PATH = "modelo_classificador_genero.h5"  # Onde o modelo será salvo
 
 def load_data(data_path):
